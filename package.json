@@ -1,0 +1,31 @@
+{
+  "name": "auto-foot-measurement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quenzvezda/Auto-Foot-Measurement.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quenzvezda/Auto-Foot-Measurement/issues"
+  },
+  "homepage": "https://github.com/quenzvezda/Auto-Foot-Measurement#readme",
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "dotenv": "^16.3.1"
+  }
+}
